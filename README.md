@@ -147,24 +147,3 @@ If `--engine llm` fails because configuration is unavailable, the agent safely f
 python -m unittest discover -s tests -v
 ```
 
-## Demo flow for an interview
-
-1. Show three sample operational emails.
-2. Run batch processing.
-3. Open the CSV report.
-4. Run Streamlit and paste a new alert.
-5. Explain the observe-plan-act-evaluate loop.
-6. Explain guardrails: read-only input, schema validation, bounded execution, fallback behavior, logs, and no automatic sending.
-
-## Interview explanation
-
-> I built a bounded email-triage agent for network operations. It observes email content, selects a summarization tool, produces structured output, validates the result, and saves an auditable report. The default engine is deterministic, while an optional LLM improves semantic summarization. I kept actions read-only and added schema validation, fallback logic, and logs so failures are safe and explainable.
-
-## Suggested improvements
-
-- Microsoft Graph authentication to read approved Outlook folders
-- Thread-level summarization
-- Human approval before creating replies or tickets
-- ServiceNow integration
-- Evaluation dataset with expected category, priority, and action items
-- PII redaction and retention controls
