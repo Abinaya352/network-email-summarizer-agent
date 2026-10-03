@@ -1,0 +1,5 @@
+From: carrier@example.com
+Subject: Planned ISP maintenance window
+Date: 2026-10-10 22:00 IST
+
+The carrier has scheduled maintenance for the WAN circuit. Please review the expected impact and notify stakeholders before 2026-10-09.

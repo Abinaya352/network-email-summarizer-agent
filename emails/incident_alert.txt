@@ -1,0 +1,5 @@
+From: noc@example.com
+Subject: Critical packet loss on core link
+Date: 2026-10-03 20:15 IST
+
+Critical alert: packet loss is affecting the core link. Please validate interface errors and update the incident by EOD.

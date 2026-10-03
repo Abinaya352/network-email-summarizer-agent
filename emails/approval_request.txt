@@ -1,0 +1,5 @@
+From: changes@example.com
+Subject: Approval required for change request CRQ001234
+Date: 2026-10-04 09:00 IST
+
+Approval required for the router software change. Kindly review the implementation and rollback plan and approve by tomorrow.
